@@ -1,0 +1,18 @@
+# 安装java和c
+## 1. 安装Java
+
+安装java建议，直接安装openjdk，直接在命令行，输入javac或者java，会给出提示，直接按照提示的命令进行操作即可。
+
+## 2. 安装C与Cpp相关
+
+直接按照这个博客中“安装必要依赖”这个选项进行，完全Ok。为了防止这个博客日后找不到，现将需要命令放在下面。
+```` c
+
+sudo apt-get install gcc make libncurses5-dev openssl libssl-dev 
+sudo apt-get install build-essential 
+sudo apt-get install pkg-config
+sudo apt-get install libc6-dev
+sudo apt-get install bison
+sudo apt-get install flex
+sudo apt-get install libelf-dev
+````
